@@ -1,0 +1,11 @@
+<h1>EvalorPage#index</h1>
+<p>Find me in app/views/evalor_page/index.html.erb</p>
+
+<%= form_tag do %>
+	<%= text_field_tag :y_expr %>
+    <%= text_field_tag :x_val %>
+    <%= submit_tag "Send input" %>
+<% end %>
+
+
+<%= "result is #{@result}" %>
